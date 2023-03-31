@@ -1,1 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
 
+#developer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 5px;
+}
+
+#run {
+    position: fixed;
+    transform: scaleX(-50%, -50%);
+    bottom: 1vh;
+}
